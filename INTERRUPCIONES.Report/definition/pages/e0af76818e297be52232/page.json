@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "e0af76818e297be52232",
+  "displayName": "Página 1",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "fa4c754196d0a4ee91f8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Interrupcoes"
+              }
+            },
+            "Property": "Duracion_Segundos"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "e112fce62d23182f6acf",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "2337a0972be01935b61b",
+        "boundFilter": "fa4c754196d0a4ee91f8",
+        "asAggregation": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Interrupcoes"
+              }
+            },
+            "Property": "Duracion_Segundos"
+          }
+        }
+      }
+    ]
+  }
+}

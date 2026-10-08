@@ -1,0 +1,9 @@
+# Archivos de caché y estado local de Power BI
+.pbi/
+*.abf
+*.gstore
+*.id
+*.pbi/cache.abf
+
+# Ignorar datos locales si usas formato PBIR / TMDL local
+*.Security

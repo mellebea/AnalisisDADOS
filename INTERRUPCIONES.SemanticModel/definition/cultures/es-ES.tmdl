@@ -1,0 +1,2445 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_codigo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim codigo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Codigos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.codigo_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "CodigoID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CodigoID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "codigo identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "codigo identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "codigo identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "codigo credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.codigo_ID_categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "CodigoIDCategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo ID categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CodigoIDCategoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "codigo identification categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "codigo identity categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "codigo identifier categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "codigo credential categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.codigo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "Codigo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.descricao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "Descricao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descricao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.ativo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "Ativo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ativo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "Categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.descricao_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "Descricao.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descricao.1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.codigo_descricao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "ConceptualProperty": "Codigo_Descricao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo descricao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Codigo_Descricao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Descricao": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.jerarquia_interrupcione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "Hierarchy": "Jerarquia_Interrupciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquia interrupcione": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Jerarquia_Interrupciones": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.jerarquia_interrupcione.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "Hierarchy": "Jerarquia_Interrupciones",
+			          "HierarchyLevel": "Categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_codigo.jerarquia_interrupcione.codigo_descricao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Codigos",
+			          "Hierarchy": "Jerarquia_Interrupciones",
+			          "HierarchyLevel": "Codigo_Descricao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo descricao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Codigo_Descricao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interrupcoe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.interrupcao_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "InterrupcaoID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interrupcao ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InterrupcaoID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "interrupcao identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interrupcao identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interrupcao identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interrupcao credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.maquina_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "MaquinaID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "maquina ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MaquinaID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "maquina identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maquina identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maquina identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maquina credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.codigo_ID_categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "CodigoIDCategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo ID categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CodigoIDCategoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "codigo identification categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "codigo identity categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "codigo identifier categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "codigo credential categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.codigo_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "CodigoID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "codigo ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CodigoID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "codigo identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "codigo identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "codigo identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "codigo credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.inicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Inicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inicio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "interrupcoe.fim": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Fim"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fim": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "interrupcoe.observacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Observacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "observacao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.usuario_registro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "UsuarioRegistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "usuario registro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UsuarioRegistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.data_registro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "DataRegistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data registro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataRegistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record registro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "interrupcoe.duracion_segundo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Duracion_Segundos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duracion segundo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Duracion_Segundos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.duracion_hora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Duracion_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duracion hora": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Duracion_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.ultimas_8H": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Ultimas_8H"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultimas 8H": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ultima 8H": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Ultimas_8H": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "8H": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.color_alarma": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "ColorAlarma"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "color alarma": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ColorAlarma": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.duracion_minuto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Duracion_minutos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duracion minuto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Duracion_minutos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "minutos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.cantidad_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Cantidad_>1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad_>1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "interrupcoe.cantidad_11": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Interrupcoes",
+			          "ConceptualProperty": "Cantidad_<1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad_<1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "maquina": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Maquinas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "maquina": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "maquina.maquina_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Maquinas",
+			          "ConceptualProperty": "MaquinaID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "maquina ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "MaquinaID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "maquina identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maquina identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maquina identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maquina credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "maquina.maquina": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Maquinas",
+			          "ConceptualProperty": "Maquina"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "maquina": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "maquina name": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "maquina.area": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Maquinas",
+			          "ConceptualProperty": "Area"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "locale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "neighbourhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "maquina.descricao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Maquinas",
+			          "ConceptualProperty": "Descricao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descricao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "maquina.ativa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Maquinas",
+			          "ConceptualProperty": "Ativa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ativa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dim_codigo_jerarquia_interrupcione_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo.jerarquia_interrupcione": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione"
+			          }
+			        },
+			        "dim_codigo.jerarquia_interrupcione.categoria": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo.jerarquia_interrupcione"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquia_interrupciones_have_categorias"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_maquina": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "maquina"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_maquinas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_have_interrupcoes"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_dim_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_dim_codigos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_interrupcoes"
+			        }
+			      ]
+			    },
+			    "maquina_has_ativa": {
+			      "Binding": {
+			        "ConceptualEntity": "Maquinas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        },
+			        "maquina.ativa": {
+			          "Target": {
+			            "Entity": "maquina.ativa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Object": {
+			              "Role": "maquina.ativa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_have_ativas"
+			        }
+			      ]
+			    },
+			    "maquina_has_descricao": {
+			      "Binding": {
+			        "ConceptualEntity": "Maquinas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        },
+			        "maquina.descricao": {
+			          "Target": {
+			            "Entity": "maquina.descricao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Object": {
+			              "Role": "maquina.descricao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_have_descricaos"
+			        }
+			      ]
+			    },
+			    "maquina_has_area": {
+			      "Binding": {
+			        "ConceptualEntity": "Maquinas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        },
+			        "maquina.area": {
+			          "Target": {
+			            "Entity": "maquina.area"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Object": {
+			              "Role": "maquina.area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_have_areas"
+			        }
+			      ]
+			    },
+			    "maquina_has_maquina": {
+			      "Binding": {
+			        "ConceptualEntity": "Maquinas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        },
+			        "maquina.maquina": {
+			          "Target": {
+			            "Entity": "maquina.maquina"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Object": {
+			              "Role": "maquina.maquina"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_have_maquinas"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Name": {
+			              "Role": "maquina.maquina"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_are_names_IDs_of_maquinas"
+			        }
+			      ]
+			    },
+			    "maquina_has_maquina_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Maquinas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        },
+			        "maquina.maquina_ID": {
+			          "Target": {
+			            "Entity": "maquina.maquina_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Object": {
+			              "Role": "maquina.maquina_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_have_maquina_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Name": {
+			              "Role": "maquina.maquina_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquina_ID_are_names_IDs_of_maquinas"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_cantidad_11": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.cantidad_11": {
+			          "Target": {
+			            "Entity": "interrupcoe.cantidad_11"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.cantidad_11"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_cantidad_1"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_cantidad_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.cantidad_1": {
+			          "Target": {
+			            "Entity": "interrupcoe.cantidad_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.cantidad_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_cantidad_11"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_duracion_minuto": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.duracion_minuto": {
+			          "Target": {
+			            "Entity": "interrupcoe.duracion_minuto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.duracion_minuto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_duracion_minutos"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_color_alarma": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.color_alarma": {
+			          "Target": {
+			            "Entity": "interrupcoe.color_alarma"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.color_alarma"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_color_alarmas"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_ultimas_8H": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.ultimas_8H": {
+			          "Target": {
+			            "Entity": "interrupcoe.ultimas_8H"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.ultimas_8H"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_ultimas_8Hs"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_duracion_hora": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.duracion_hora": {
+			          "Target": {
+			            "Entity": "interrupcoe.duracion_hora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.duracion_hora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_duracion_horas"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_duracion_segundo": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.duracion_segundo": {
+			          "Target": {
+			            "Entity": "interrupcoe.duracion_segundo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.duracion_segundo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_duracion_segundo"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_data_registro": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.data_registro": {
+			          "Target": {
+			            "Entity": "interrupcoe.data_registro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.data_registro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_data_registros"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_usuario_registro": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.usuario_registro": {
+			          "Target": {
+			            "Entity": "interrupcoe.usuario_registro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.usuario_registro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_usuario_registros"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_observacao": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.observacao": {
+			          "Target": {
+			            "Entity": "interrupcoe.observacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.observacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_observacaos"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_fim": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.fim": {
+			          "Target": {
+			            "Entity": "interrupcoe.fim"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.fim"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_fims"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_inicio": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.inicio": {
+			          "Target": {
+			            "Entity": "interrupcoe.inicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.inicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_inicios"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_codigo_ID_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.codigo_ID_categoria": {
+			          "Target": {
+			            "Entity": "interrupcoe.codigo_ID_categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.codigo_ID_categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_codigo_ID_categorias"
+			        }
+			      ]
+			    },
+			    "interrupcoe_has_interrupcao_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Interrupcoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "interrupcoe": {
+			          "Target": {
+			            "Entity": "interrupcoe"
+			          }
+			        },
+			        "interrupcoe.interrupcao_ID": {
+			          "Target": {
+			            "Entity": "interrupcoe.interrupcao_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "interrupcoe"
+			            },
+			            "Object": {
+			              "Role": "interrupcoe.interrupcao_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "interrupcoes_have_interrupcao_ID"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_jerarquia_interrupcione": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.jerarquia_interrupcione": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.jerarquia_interrupcione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_jerarquia_interrupciones"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_codigo_descricao": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.codigo_descricao": {
+			          "Target": {
+			            "Entity": "dim_codigo.codigo_descricao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.codigo_descricao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_codigo_descricaos"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_descricao_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.descricao_1": {
+			          "Target": {
+			            "Entity": "dim_codigo.descricao_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.descricao_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_descricao_1"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.categoria": {
+			          "Target": {
+			            "Entity": "dim_codigo.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_categorias"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_ativo": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.ativo": {
+			          "Target": {
+			            "Entity": "dim_codigo.ativo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.ativo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_ativos"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_descricao": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.descricao": {
+			          "Target": {
+			            "Entity": "dim_codigo.descricao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.descricao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_descricaos"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_codigo": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo.codigo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.codigo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_codigos"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_codigo_ID_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.codigo_ID_categoria": {
+			          "Target": {
+			            "Entity": "dim_codigo.codigo_ID_categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.codigo_ID_categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_codigo_ID_categorias"
+			        }
+			      ]
+			    },
+			    "dim_codigo_has_codigo_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo": {
+			          "Target": {
+			            "Entity": "dim_codigo"
+			          }
+			        },
+			        "dim_codigo.codigo_ID": {
+			          "Target": {
+			            "Entity": "dim_codigo.codigo_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.codigo_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_codigos_have_codigo_ID"
+			        }
+			      ]
+			    },
+			    "maquina_in_area": {
+			      "Binding": {
+			        "ConceptualEntity": "Maquinas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "maquina": {
+			          "Target": {
+			            "Entity": "maquina"
+			          }
+			        },
+			        "maquina.area": {
+			          "Target": {
+			            "Entity": "maquina.area"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "maquina.area"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "maquina"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "maquina.area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "maquinas_are_in_areas"
+			        }
+			      ]
+			    },
+			    "dim_codigo_jerarquia_interrupcione_has_codigo_descricao": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo.jerarquia_interrupcione": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione"
+			          }
+			        },
+			        "dim_codigo.jerarquia_interrupcione.codigo_descricao": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione.codigo_descricao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo.jerarquia_interrupcione"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.codigo_descricao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquia_interrupciones_have_codigo_descricaos"
+			        }
+			      ]
+			    },
+			    "dim_codigo_jerarquia_interrupcione_categoria_has_dim_codigo_jerarquia_interrupcione_codigo_descricao": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Codigos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_codigo.jerarquia_interrupcione.categoria": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione.categoria"
+			          }
+			        },
+			        "dim_codigo.jerarquia_interrupcione.codigo_descricao": {
+			          "Target": {
+			            "Entity": "dim_codigo.jerarquia_interrupcione.codigo_descricao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.categoria"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.codigo_descricao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "categorias_have_codigo_descricaos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.codigo_descricao"
+			            },
+			            "Object": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "codigo_descricaos_have_categorias"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.codigo_descricao"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_codigo.jerarquia_interrupcione.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "codigo_descricaos_are_in_categorias"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,58 @@
+table Maquinas
+	lineageTag: be887c01-c886-41d3-9f62-284717412266
+
+	column MaquinaID
+		dataType: int64
+		formatString: 0
+		lineageTag: da44ca5e-7123-44ad-b2a5-a5913987d2fd
+		summarizeBy: none
+		sourceColumn: MaquinaID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Maquina
+		dataType: string
+		lineageTag: 67b522ee-f095-4b3d-a1d4-b6fdef9cf7b1
+		summarizeBy: none
+		sourceColumn: Maquina
+
+		annotation SummarizationSetBy = Automatic
+
+	column Area
+		dataType: string
+		lineageTag: 8d5f2578-2512-45b4-af43-b883290e1689
+		summarizeBy: none
+		sourceColumn: Area
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descricao
+		dataType: string
+		lineageTag: 84502a48-3a9f-429a-9886-e1de969a947f
+		summarizeBy: none
+		sourceColumn: Descricao
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ativa
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b42c6739-3531-44c9-b28e-87386dc95c2b
+		summarizeBy: none
+		sourceColumn: Ativa
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Maquinas = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Database("MELLE", "INTERRUPCION"),
+				    dbo_Maquinas = Origen{[Schema="dbo",Item="Maquinas"]}[Data]
+				in
+				    dbo_Maquinas
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

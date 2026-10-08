@@ -1,0 +1,12 @@
+expression CodigosCategoria =
+		let
+		    Origen = Sql.Database("MELLE", "INTERRUPCION"),
+		    dbo_CodigosCategoria = Origen{[Schema="dbo",Item="CodigosCategoria"]}[Data]
+		in
+		    dbo_CodigosCategoria
+	lineageTag: d0a919de-7e38-46bf-822d-bbc8da0c7547
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

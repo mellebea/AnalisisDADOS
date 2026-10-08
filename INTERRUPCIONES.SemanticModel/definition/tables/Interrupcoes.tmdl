@@ -1,0 +1,183 @@
+table Interrupcoes
+	lineageTag: 63791d83-a694-4971-b9dc-83d496c2c176
+
+	measure Cantidad_>1 =
+			COALESCE(
+			CALCULATE(
+			    COUNTROWS('Interrupcoes'),
+			    'Interrupcoes'[ColorAlarma] = "#FFFF66"
+			),0)
+		formatString: 0
+		lineageTag: 1be251dc-cc39-41db-a493-9b570a7b87f5
+
+	measure Cantidad_<1 =
+			COALESCE(
+			CALCULATE(
+			    COUNTROWS('Interrupcoes'),
+			    'Interrupcoes'[ColorAlarma] = "#FF4C4C"
+			),0)
+		formatString: 0
+		lineageTag: 1379ff17-36b1-4047-b681-6f7cc54def10
+
+	measure Cantidad_>2 =
+			COALESCE(
+			CALCULATE(
+			    COUNTROWS('Interrupcoes'),
+			    'Interrupcoes'[ColorAlarma] = "#FFFFFF"
+			),0)
+		formatString: 0
+		lineageTag: 96defdde-5cdc-44f3-9ee6-fb401d88843d
+
+	measure TotalMinutos = ```
+			COALESCE(SUM('Interrupcoes'[Duracion_minutos]),0) 
+			```
+		formatString: 0
+		lineageTag: 3aed5337-a40b-434c-84d9-4e9c8c9ebc40
+
+	column InterrupcaoID
+		dataType: int64
+		formatString: 0
+		lineageTag: a391ec41-7d09-4e4c-a376-da14a04d9dbf
+		summarizeBy: count
+		sourceColumn: InterrupcaoID
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaquinaID
+		dataType: int64
+		formatString: 0
+		lineageTag: a8c32a2c-902b-4763-b3ab-eb3fa8d88521
+		summarizeBy: none
+		sourceColumn: MaquinaID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CodigoIDCategoria
+		dataType: int64
+		formatString: 0
+		lineageTag: 39dc8b33-ae42-4e18-8d73-caa14ef71d7d
+		summarizeBy: sum
+		sourceColumn: CodigoIDCategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column CodigoID
+		dataType: int64
+		formatString: 0
+		lineageTag: 52518815-1da0-406e-91a2-4eeebdbe8027
+		summarizeBy: none
+		sourceColumn: CodigoID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Inicio
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: cd4dac23-9953-4830-854c-dfe3f5aaa250
+		summarizeBy: none
+		sourceColumn: Inicio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fim
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 9d2054e0-7bb8-403b-9450-54ad5ea11431
+		summarizeBy: none
+		sourceColumn: Fim
+
+		annotation SummarizationSetBy = Automatic
+
+	column Observacao
+		dataType: string
+		lineageTag: 3bcad3b8-a16d-4018-9aff-b5d230c9ee32
+		summarizeBy: none
+		sourceColumn: Observacao
+
+		annotation SummarizationSetBy = Automatic
+
+	column UsuarioRegistro
+		dataType: string
+		lineageTag: 07594a31-7758-4872-9eb7-f8e2b3aa7b69
+		summarizeBy: none
+		sourceColumn: UsuarioRegistro
+
+		annotation SummarizationSetBy = Automatic
+
+	column DataRegistro
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 3175fbc7-c309-4ee8-a7b4-f87c589efb2d
+		summarizeBy: none
+		sourceColumn: DataRegistro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duracion_Segundos = DATEDIFF('Interrupcoes'[Inicio],'Interrupcoes'[Fim] , SECOND)
+		formatString: 0
+		lineageTag: a54c2952-d300-4459-8ca3-0035c7c35d28
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duracion_horas =
+			
+			DATEDIFF('Interrupcoes'[Inicio], 'Interrupcoes'[Fim], HOUR)
+		formatString: 0
+		lineageTag: 31860059-de55-40a2-9743-298eb2becb1a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ultimas_8H = ```
+			
+			VAR UltimoRegistro = MAX('Interrupcoes'[Inicio])
+			RETURN 
+			    IF(
+			        'Interrupcoes'[Inicio] >= UltimoRegistro - (8 / 24),
+			        1,
+			        0
+			    )
+			```
+		formatString: 0
+		lineageTag: 853b01e2-19cd-470a-b2a5-a13680c8429a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column ColorAlarma =
+			VAR Minutos = DATEDIFF([Inicio], [Fim], MINUTE)
+			RETURN
+			SWITCH(TRUE(),
+			    Minutos >= 0 && Minutos < 60, "#FF4C4C",      -- 🔴 Menos de 1 hora NOW()
+			    Minutos >= 60 && Minutos < 121, "#FFFF66",    -- 🟡 Entre 1 y 2 horas
+			    Minutos >= 121, "#FFFFFF",                    -- ⚪ Más de 2 horas
+			    BLANK()
+			)
+		lineageTag: f4ac4eb5-85d0-4e1d-b3f3-a81690ffa1ab
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duracion_minutos = DATEDIFF('Interrupcoes'[Inicio],'Interrupcoes'[Fim],MINUTE)
+		formatString: 0
+		lineageTag: ea430359-bc42-48c7-b99b-3a67346c181a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Interrupcoes = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Database("MELLE", "INTERRUPCION"),
+				    dbo_Interrupcoes = Origen{[Schema="dbo",Item="Interrupcoes"]}[Data],
+				    #"Columnas quitadas" = Table.RemoveColumns(dbo_Interrupcoes,{"Codigo"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas quitadas",{{"Inicio", type datetime}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

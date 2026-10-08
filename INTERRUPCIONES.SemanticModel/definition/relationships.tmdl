@@ -1,0 +1,12 @@
+relationship 8f4218fe-c6b1-49e2-aa3d-3488d48790cb
+	fromColumn: Interrupcoes.CodigoID
+	toColumn: Dim_Codigos.CodigoID
+
+	annotation PBI_IsFromSource = FS
+
+relationship 8d14e666-b278-4bc9-a0bf-25dfc6d90804
+	fromColumn: Interrupcoes.MaquinaID
+	toColumn: Maquinas.MaquinaID
+
+	annotation PBI_IsFromSource = FS
+

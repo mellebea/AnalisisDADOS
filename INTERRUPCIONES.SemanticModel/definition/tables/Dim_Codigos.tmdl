@@ -1,0 +1,97 @@
+table Dim_Codigos
+	lineageTag: dd4afa0d-2b95-49ec-a5ac-9adb7ebdf79d
+
+	column CodigoID
+		dataType: int64
+		formatString: 0
+		lineageTag: 50a30dc5-55ab-4d89-be73-9f7cb250ad7b
+		summarizeBy: none
+		sourceColumn: CodigoID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CodigoIDCategoria
+		dataType: int64
+		formatString: 0
+		lineageTag: 52a54b90-8d5d-4379-a922-0090bdebe8cd
+		summarizeBy: none
+		sourceColumn: CodigoIDCategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column Codigo
+		dataType: string
+		lineageTag: 78b4a3c3-1cc7-4613-b9d6-15fc9d92b2f9
+		summarizeBy: none
+		sourceColumn: Codigo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descricao
+		dataType: string
+		lineageTag: 74437205-13d8-4872-9e8a-26f0283fb62b
+		summarizeBy: none
+		sourceColumn: Descricao
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ativo
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 39387495-3ad5-4ead-a49c-9009f7704e53
+		summarizeBy: none
+		sourceColumn: Ativo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria
+		dataType: string
+		lineageTag: 016a6ea3-e1d7-4335-a743-5d27f1238d5e
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Descricao.1'
+		dataType: string
+		lineageTag: 942e3e99-babf-4157-8e13-ebf30ca9805a
+		summarizeBy: none
+		sourceColumn: Descricao.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Codigo_Descricao = [Codigo] & " - " & [Descricao]
+		lineageTag: 128775c6-10ba-4ebc-8dec-15465731286e
+		summarizeBy: none
+		sortByColumn: CodigoID
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy Jerarquia_Interrupciones
+		lineageTag: ba07cbff-58fc-4d88-a639-ca3522824216
+
+		level Categoria
+			lineageTag: 3b52dbe0-8670-4b2f-adc2-8ce818b7b8f2
+			column: Categoria
+
+		level Codigo_Descricao
+			lineageTag: f4a84443-bf78-44fd-bde8-1189ade149ec
+			column: Codigo_Descricao
+
+	partition Dim_Codigos = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Database("MELLE", "INTERRUPCION"),
+				    dbo_CodigosInterrupcao = Origen{[Schema="dbo",Item="CodigosInterrupcao"]}[Data],
+				    #"Consultas combinadas" = Table.NestedJoin(dbo_CodigosInterrupcao, {"CodigoIDCategoria"}, CodigosCategoria, {"CodigoIDCategoria"}, "CodigosCategoria.1", JoinKind.LeftOuter),
+				    #"Se expandió CodigosCategoria.1" = Table.ExpandTableColumn(#"Consultas combinadas", "CodigosCategoria.1", {"Categoria", "Descricao"}, {"Categoria", "Descricao.1"})
+				in
+				    #"Se expandió CodigosCategoria.1"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

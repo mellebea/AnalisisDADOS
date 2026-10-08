@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "INTERRUPCIONES"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "61add5fb-79f4-4768-b929-51505a4432c5"
+  }
+}
